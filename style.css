@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Lato&family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300&display=swap");
+
+body {
+    font-family: "Aleo", serif;
+    font-size: 18px;
+    margin: 0px;
+}
+
+h1, h2, h3 {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    width: 700px;
+    margin: 8px auto;
+}
+
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.btn-blue {
+    background-color: #6D71DD;
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner {
+    background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 40%), url("https://img-3.journaldesfemmes.fr/aHDwiB3X3Ra3FL1fFItkcOCd-BY=/1500x/smart/6f0eba8dd6e54a8287ea03d021de2ba7/ccmcms-jdf/29529390.jpg");
+    color: white;
+    padding: 150px 0px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h1 {
+    font-size: 50px;
+}
+
+.banner h2 {
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    margin: 10px;
+    flex-basis: 250px;
+    flex-grow: 1;
+    
+
+    
+}
+
+.card img {
+    width: 150px;
+    border-radius: 6px;
+}
+
+.card h3 {
+    flex-grow: 1;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
